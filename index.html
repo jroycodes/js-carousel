@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <title>Image Carousel</title>
+  </head>
+  <body>
+    <div class="intro">
+      <h1>Simple Image Carousel</h1>
+      <p>5 x Image items ❖ Carousel</p>
+      <p>Interactive Components & Variants</p>
+    </div>
+    <section aria-label="Newest Photos">
+      <div class="carousel" data-carousel>
+        <button class="carousel-button prev" data-carousel-button="prev">
+          &#8656;
+        </button>
+        <button class="carousel-button next" data-carousel-button="next">
+          &#8658;
+        </button>
+        <div data-slides>
+          <div class="slide" data-active>
+            <img src="bat1.jpg" alt="Batman wallpaper" />
+          </div>
+          <div class="slide">
+            <img src="bats.webp" alt="Batman wallpaper" />
+          </div>
+          <div class="slide">
+            <img src="Bats.jpg" alt="Batman wallpaper" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
